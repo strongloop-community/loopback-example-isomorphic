@@ -1,0 +1,10 @@
+{
+  "local": {
+    "connector": "memory",
+    "localStorage": "loopback-example-isomorphic"
+  },
+  "remote": {
+    "connector": "remote",
+    "url": "http://localhost:3000/api"
+  }
+}
