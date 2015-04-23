@@ -19,6 +19,7 @@
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
+    "bower": "^1.4.1",
     "browserify": "^9.0.8",
     "del": "^1.1.1",
     "gulp": "^3.8.11",
