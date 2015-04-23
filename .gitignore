@@ -20,4 +20,5 @@ npm-debug.log
 client/bower_components
 client/dist
 client/public/js/bundle.js
+client/public/vendor
 db.json
