@@ -36,7 +36,7 @@ gulp.task('build:assets', ['clean'], function() {
   assets.forEach(function(asset) {
     var dest = 'client/public/';
     dest += asset.dest ? asset.dest : 'vendor';
-    gulp.src('client/bower_components' + asset.src)
+    gulp.src('client/bower_components/' + asset.src)
       .pipe(gulp.dest(dest));
   });
 });
