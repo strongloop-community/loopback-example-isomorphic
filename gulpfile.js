@@ -57,7 +57,7 @@ gulp.task('build:lb-client', ['clean'], function(done) {
     .on('error', done)
     .on('close', done);
   b.bundle().pipe(target);
-})
+});
 
 gulp.task('install', [
   'clean',
