@@ -31,5 +31,6 @@
     "type": "",
     "url": ""
   },
-  "description": "loopback-example-isomorphic"
+  "description": "loopback-example-isomorphic",
+  "license": "MIT"
 }
