@@ -1,10 +1,13 @@
 {
   "name": "loopback-example-isomorphic",
   "version": "1.0.0",
+  "description": "loopback-example-isomorphic",
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
-    "postinstall": "bower install;gulp"
+    "postinstall": "bower install;gulp",
+    "start": "gulp;node .",
+    "test": "tape tests/**/*.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -25,12 +28,12 @@
     "gulp": "^3.8.11",
     "gulp-loopback-sdk-angular": "^0.1.3",
     "gulp-rename": "^1.2.2",
-    "jshint": "^2.5.6"
+    "jshint": "^2.5.6",
+    "tape": "^4.2.0"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/strongloop/loopback-example-isomorphic"
   },
-  "description": "loopback-example-isomorphic",
   "license": "MIT"
 }
