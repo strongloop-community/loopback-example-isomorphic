@@ -11,4 +11,4 @@ Using LoopBack on the client-side and server-side.
 
 ---
 
-[Other Loopback examples](https://github.com/strongloop/loopback-example)
+[More LoopBack examples](https://github.com/strongloop/loopback-example)
