@@ -1,3 +1,8 @@
+// Copyright IBM Corp. 2015. All Rights Reserved.
+// Node module: loopback-example-isomorphic
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
+
 var gulp = require('gulp');
 var del = require('del');
 var rename = require('gulp-rename');
