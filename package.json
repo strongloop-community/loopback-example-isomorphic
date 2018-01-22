@@ -5,8 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
-    "postinstall": "bower install;gulp",
-    "start": "gulp;node .",
+    "postinstall": "bower install && gulp",
+    "start": "gulp && node .",
     "test": "tape tests/**/*.js"
   },
   "dependencies": {
